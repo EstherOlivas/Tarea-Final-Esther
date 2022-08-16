@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ingredientes deseados </title>
+    <link rel="stylesheet" href="/Cena/cena1.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+    <body>
+        <aside id= "imagen">
+            <img height="250px"   src="/imagenes/cena1.jpg">
+        </aside>
+        <header>
+            <h1>Agregar Ingredientes</h1>
+        </header>
+        <main>
+            <section id="personalinfo">
+                <form action="" id="formulario">
+                    <div class="formulario">
+                        <label for="tipo1">Tipo de carne (Pollo, res, begano)</label><br />
+                        <input type="text" correo="" id="tipo1" required />
+                    </div>
+    
+                    <div class="formulario">
+                        <label for="tipo2">Tipo de queso (Mozzarella, Parmesano, Provolone)</label><br />
+                        <input type="text" nonmbre="" id="tipo2" required />
+                    </div>
+    
+                    <div class="formulario">
+                        <label for="tipo3">Desea agregar todas las verduras (Si/No) </label><br />
+                        <input type="text" direccion="" id="tipo3" required />
+                    </div>
+    
+                    <div class="formulario">
+                        <label for="tipo4">Desea agregar aguacate extra? </label><br />
+                        <input type="text" numero="" id="tipo4" required />
+                    </div>
+                    <form>
+                        <input class="button" type="button" id="btnvolver" value="Volver" onclick="history.back(-1)">
+                    </form>  
+                    <button id="btnguardar" type="button" class="button">Guardar</button>
+                </form>
+            </section>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"> </script>
+        <script src= "/Validaciones/registro.js"> </script>
+    </body>
+    
+
+
+</html>

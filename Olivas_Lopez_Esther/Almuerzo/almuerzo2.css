@@ -1,0 +1,97 @@
+body{
+    font-family: 'Montserrat';  
+}
+main {
+    
+    font-family: 'Montserrat';
+}
+#imagen{
+    float: right;
+    text-align: center;
+    width: 40%;
+    position: relative;
+    right: 1000px;
+}
+header{
+    margin-top: 5%;
+    position: relative;
+    left: 470px;
+   
+}
+
+.contenedor_input{
+    display: flex;
+    flex-direction: column;
+}
+#contenedor_form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 963px;
+    
+}
+
+.formulario {
+    width: 30%;
+    height: 50px;
+    margin: 15px auto;
+    position: relative;
+    right: 120px;
+}
+
+label {
+    font-size: 16px;
+    width: 60%;
+}
+
+input {
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 16px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.button {
+    font-family: 'Montserrat', sans-serif; 
+    height: 30px;
+    width: 10%;
+    font-size: 12px;  
+    border-radius: 7px;
+    margin: 10px;
+    background-color: black;
+    border: 2px solid #00FFA0;
+    color: white;
+    position: relative;
+    margin-top: 60px;
+    float: right;
+    
+}
+
+
+
+#btnguardar:hover {
+   
+    background-color: #00fa9a;
+    color: #4682b4; 
+    border-color:  #00fa9a;
+    font-weight: bold; 
+} 
+
+#btnvolver:hover {
+    background-color: #00fa9a;
+    color: #4682b4; 
+    border-color:  #00fa9a;
+    font-weight: bold; 
+    position: relative;
+} 
+
+#btnguardar:hover,
+#btnvolver:hover {
+    cursor: pointer;
+}
+
+
